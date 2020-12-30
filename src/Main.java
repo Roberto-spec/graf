@@ -20,12 +20,13 @@ public class Main {
             switch (a){
                 case 1:{
                     System.out.println("Enter name Vertex:");
-                    //System.out.print(">_");
-                    //String s;
-                    //s=scanner.nextLine();
-                    //name=s.charAt(0);
-                    name=(char)scanner.nextByte();
-                    Vertex vertex=new Vertex(name);
+                    //System.out.print(">_";
+                    String s;
+                    s=scanner.nextLine();
+                    if(s.length()>0){
+                    name=s.charAt(0);
+
+                    Vertex vertex=new Vertex(name);}
                     break;
                 }
                 case 2:{
